@@ -1,4 +1,4 @@
-const Header = () => {
+const Logo = () => {
     return (
         <div className="absolute z-50">
             <img
@@ -10,4 +10,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Logo;
