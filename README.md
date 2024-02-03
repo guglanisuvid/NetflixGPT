@@ -13,6 +13,10 @@
 - Create User SignUp Account
 - Implement Sign In User API
 - Created Redux Store with userSlice
+- Implemented Signout
+- Update Profile
+- BugFix: sign up user, display name
+- BugFix: If the user is not logged in redirect '/browse' to '/'and vice versa
 
 ## Features
 
