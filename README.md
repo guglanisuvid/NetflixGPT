@@ -17,6 +17,10 @@
 - Update Profile
 - BugFix: sign up user, display name
 - BugFix: If the user is not logged in redirect '/browse' to '/'and vice versa
+- Unsubscribe to the onAuthStateChanged callback
+- Added hardcoded values to constants file
+- Register for TMDB API, create an app and get access token
+- Get data from TMDB now playing movies list API
 
 ## Features
 
@@ -35,3 +39,5 @@
 - NetflixGPT
 - - Search Bar
 - - Movie suggestions according to the search
+
+###### A major error in Hero.js commented lines
