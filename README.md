@@ -21,6 +21,21 @@
 - Added hardcoded values to constants file
 - Register for TMDB API, create an app and get access token
 - Get data from TMDB now playing movies list API
+- Created custom hook for nowPlayingMovies
+- Created moviesSlice
+- Update store with movies data
+- Fetch data for trailer video
+- Updated store with trailer data
+- Custom hook for trailer video
+- Embedded the youtube video and make it autoplay and mute
+- Built secondary movies
+- Built movie list
+- Built movie card
+- TMDB image CDN URL
+- Made the UI look better
+- usePopularMovies custom hook
+- useTopRatedMovies custom hook
+- useUpcomingMovies custom hook
 
 ## Features
 
@@ -39,5 +54,3 @@
 - NetflixGPT
 - - Search Bar
 - - Movie suggestions according to the search
-
-###### A major error in Hero.js commented lines

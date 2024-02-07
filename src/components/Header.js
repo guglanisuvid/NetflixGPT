@@ -41,9 +41,9 @@ const Logo = () => {
     }, []);
 
     return (
-        <div className="flex justify-between items-center w-full absolute z-50">
+        <div className="flex justify-between items-center w-full absolute z-50 px-10 py-4 bg-gradient-to-b from-black">
             <img
-                className="h-20"
+                className="h-10"
                 src={LOGO}
                 alt="logo"
             />
@@ -51,7 +51,7 @@ const Logo = () => {
                 user
                 &&
                 <button
-                    className="bg-[#E50914] mx-10 text-lg text-white font-medium px-4 py-2 rounded-md tracking-wider"
+                    className="bg-[#E50914] text-lg text-white font-medium px-4 py-2 rounded-md tracking-wider"
                     onClick={handleSignOut}
                 >
                     Sign Out

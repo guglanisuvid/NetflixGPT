@@ -1,19 +1,19 @@
-import { useEffect } from "react";
-import { TMDB_OPTIONS } from "../utils/constants";
+import { useSelector } from "react-redux";
+import useTrailerVideo from "../hooks/useTrailerVideo";
 
 const VideoBackground = ({ movie_id }) => {
-    const getMovieVideos = async () => {
-        const data = await fetch("https://api.themoviedb.org/3/movie/787699/videos?language=en-US", TMDB_OPTIONS);
-        const json = await data.json();
-        console.log(json);
-    }
-
-    useEffect(() => {
-        getMovieVideos();
-    }, []);
+    const trailerVideo = useSelector(store => store.movies?.trailerVideo);
+    useTrailerVideo(movie_id);
 
     return (
-        <div>VideoBackground</div>
+        <div>
+            <iframe
+                className="w-full aspect-video"
+                src={"https://www.youtube.com/embed/" + trailerVideo?.key + "?&autoplay=1&mute=1"}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+            </iframe>
+        </div >
     )
 }
 
