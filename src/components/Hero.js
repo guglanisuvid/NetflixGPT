@@ -6,7 +6,7 @@ const Hero = () => {
     const movies = useSelector((store) => store.movies?.nowPlayingMovies);
     if (!movies) return;
 
-    const heroMovie = movies[0];
+    const heroMovie = movies[Math.floor(Math.random() * movies.length)];
 
     const { id, original_title, overview } = heroMovie;
 

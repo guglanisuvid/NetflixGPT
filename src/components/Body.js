@@ -19,7 +19,7 @@ const Body = () => {
 
     return (
         <div
-            className="bg-[#141414] no-scrollbar">
+            className="bg-[#141414]">
             <RouterProvider router={appRouter} />
         </div>
     )
