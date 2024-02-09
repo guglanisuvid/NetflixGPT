@@ -4,6 +4,10 @@ A Netflix clone, built with React , Firebase and Styled-Components.
 
 **Note** - The name of the project is NetflixGPT but I have used the Google's Gemini API beacause to some issues with the OPENAI API.
 
+## Live
+
+[https://netflixgpt-by-suvid.web.app/](https://netflixgpt-by-suvid.web.app/)
+
 ## Technologies
 
 - `JavaScript`
