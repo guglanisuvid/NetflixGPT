@@ -25,7 +25,7 @@ const Logo = () => {
     }
 
     const handleSignOut = () => {
-        dispatch(toggleGptSearch());
+        showGptSearch && dispatch(toggleGptSearch());
         dispatch(addGptMovieResult({ movieNames: null, movieResults: null }));
         signOut(auth);
     }
