@@ -9,13 +9,13 @@ const SecondaryMovies = () => {
 
     return (
         <div
-            className="pl-10 -mt-56 pb-20 relative">
+            className="pl-4 md:pl-10 md:-mt-56 pb-10 mt-28 relative">
             <MoviesList title={"Now Playing Movies"} movies={nowPlayingMovies} />
             <MoviesList title={"Popular Movies"} movies={popularMovies} />
             <MoviesList title={"Top Rated Movies"} movies={topRatedMovies} />
             <MoviesList title={"Upcoming Movies"} movies={upcomingMovies} />
         </div>
-    )
-}
+    );
+};
 
 export default SecondaryMovies;

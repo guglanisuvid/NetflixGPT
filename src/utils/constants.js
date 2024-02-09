@@ -4,7 +4,7 @@ export const TMDB_OPTIONS = {
     method: 'GET',
     headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmYzNiZmNlYjQxYjE1ZjIwOGY2MTVjYTIxMTY5ZjQzNiIsInN1YiI6IjY1YmY3NWJjMDMxZGViMDE4M2YxMjA2YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.OM-_XrU-0O6iuYXIBI8z7D8gauFMamNtoXnoVt9B3pA'
+        Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
     }
 };
 
@@ -15,3 +15,5 @@ export const SUPPORTED_LANGUAGES = [
     { identifier: "hi", name: "हिंदी" },
     { identifier: "de", name: "Deutsch" },
 ];
+
+export const GEMINI_KEY = process.env.REACT_APP_GEMINI_KEY;

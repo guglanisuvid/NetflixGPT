@@ -68,14 +68,14 @@ const Login = () => {
             <Header />
             <div className="w-full bg-black">
                 <img
-                    className="w-full h-full opacity-40"
+                    className="w-full h-screen object-cover opacity-40"
                     src="https://assets.nflxext.com/ffe/siteui/vlv3/594f8025-139a-4a35-b58d-4ecf8fdc507c/d3c4e455-f0bf-4003-b7cd-511dda6da82a/IN-en-20240108-popsignuptwoweeks-perspective_alpha_website_large.jpg"
                     alt="background Img"
                 />
                 <div
-                    className="w-[30%] bg-black absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 px-20 py-16  rounded-lg bg-opacity-80">
+                    className="w-[92%] md:w-[30%] bg-black absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 p-8 md:px-24 md:py-16  rounded-lg bg-opacity-80">
                     <h1
-                        className="text-3xl font-semibold tracking-wide text-white my-4"
+                        className="text-2xl md:text-3xl font-semibold tracking-wide text-white my-4"
                     >
                         {isSignInForm ? "Sign In" : "Sign Up"}
                     </h1>

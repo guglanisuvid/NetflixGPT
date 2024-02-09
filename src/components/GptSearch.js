@@ -4,7 +4,8 @@ import GptMovieSuggestions from "./GptMovieSuggestions";
 
 const GptSearch = () => {
     return (
-        <div>
+        <div
+            className="min-h-screen max-h-fit">
             <GptSearchBar />
             <GptMovieSuggestions />
         </div>

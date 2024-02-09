@@ -1,14 +1,14 @@
 const language = {
     en: {
-        searchBarPlaceholder: "Search Movies",
+        searchBarPlaceholder: "Search Movies by Genre",
         searchBtnText: "Search",
     },
     hi: {
-        searchBarPlaceholder: "फिल्में खोजें",
+        searchBarPlaceholder: "शैली के अनुसार फिल्में खोजें",
         searchBtnText: "खोज",
     },
     de: {
-        searchBarPlaceholder: "Filme suchen",
+        searchBarPlaceholder: "Suchen Sie nach Filmen nach Genre",
         searchBtnText: "Suchen",
     },
 };

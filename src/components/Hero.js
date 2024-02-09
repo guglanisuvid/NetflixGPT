@@ -5,13 +5,13 @@ import VideoDetails from "./VideoDetails";
 const Hero = () => {
     const movies = useSelector((store) => store.movies?.nowPlayingMovies);
     if (!movies) return;
-
-    const heroMovie = movies[Math.floor(Math.random() * movies.length)];
+    const heroMovie = movies[0];
 
     const { id, original_title, overview } = heroMovie;
 
     return (
-        <div>
+        <div
+            className="pt-32 md:pt-0">
             <VideoDetails title={original_title} overview={overview} />
             <VideoBackground movie_id={id} />
         </div>

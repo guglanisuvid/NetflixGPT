@@ -9,7 +9,7 @@ import Hero from "./Hero";
 import SecondaryMovies from "./SecondaryMovies";
 
 const Browse = () => {
-    const showGptSearch = useSelector(store => store.gpt?.showGptSearch);
+    const showGeminiSearch = useSelector(store => store.gpt?.showGptSearch);
 
     useNowPlayingMovies();
     usePopularMovies();
@@ -17,10 +17,11 @@ const Browse = () => {
     useUpcomingMovies();
 
     return (
-        <div>
+        <div
+            className="bg-[#141414]">
             <Header />
             {
-                showGptSearch ?
+                showGeminiSearch ?
                     (
                         <GptSearch />
                     ) : (
