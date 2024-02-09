@@ -73,3 +73,13 @@ To run the project in your local environment, follow these steps:
 2. Run `npm install` in the project directory to install the required dependencies.
 3. Run `npm run start` to get the project started and run it on your local machine.
 4. Start editing the project and add new features to the project.
+
+
+
+## Image
+
+![img](https://github.com/guglanisuvid/NetflixGPT/assets/132701414/20a629e2-52a4-4799-9196-a237d84b0744)
+
+## Video
+
+https://github.com/guglanisuvid/NetflixGPT/assets/132701414/a2417cf2-edcb-419f-85a5-7d1bb455aa19
