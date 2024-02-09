@@ -70,8 +70,6 @@ To run the project in your local environment, follow these steps:
 3. Run `npm run start` to get the project started and run it on your local machine.
 4. Start editing the project and add new features to the project.
 
-https://github.com/guglanisuvid/NetflixGPT/assets/132701414/7175d87a-b1ef-4987-a31e-adb264f8d9a7
-
 
 
 ## Image
